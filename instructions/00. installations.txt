@@ -17,3 +17,12 @@
 7. Copy Past Function
 
    Devices -> Shared Clipboard -> Bidirectional
+
+
+
+A. install gedit editor
+   $ sudo apt install gedit
+
+B. install&run Visual Studio Code
+   $ sudo snap install code
+   $ code .
