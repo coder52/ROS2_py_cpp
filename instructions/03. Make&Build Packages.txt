@@ -34,3 +34,11 @@ $ colcon build --packages-select my_cpp_pkg
 
 
 
+NOTE!
+DONT FORGET 
+# start ros2 jazzy
+source /opt/ros/jazzy/setup.bash
+# start workspace
+source ~/ros2_ws/install/setup.bash
+
+
