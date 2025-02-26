@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[01m[K/home/sahin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:29:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K:[m[K’ token
+    3 | class MyNode : public rclccp[01;31m[K:[m[KNode
+      |                             [01;31m[K^[m[K
+[01m[K/home/sahin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K:[m[K’ token
+[01m[K/home/sahin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:3:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K:[m[K’ token
+[01m[K/home/sahin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/sahin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kuto[m[K’ was not declared in this scope; did you mean ‘[01m[Kauto[m[K’?
+   26 |     [01;31m[Kuto[m[K node = std::make_shared<MyNode>("cpp_tests"); // cpp_tests is nodde name
+      |     [01;31m[K^~~[m[K
+      |     [32m[Kauto[m[K
+[01m[K/home/sahin/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:34:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   34 |     rclcpp::spin([01;31m[Knode[m[K);
+      |                  [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
